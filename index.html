@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sertifikat Keaslian</title>
+    <style>
+      body {
+        font-family: "Times New Roman", serif;
+        background: #fdfdfd;
+        margin: 0;
+        padding: 0;
+      }
+      .certificate {
+        width: 80%;
+        margin: 50px auto;
+        padding: 40px;
+        border: 5px solid #000;
+        text-align: center;
+        background: #fff;
+      }
+      .logo {
+        margin-bottom: 20px;
+      }
+      .logo img {
+        max-width: 120px;
+      }
+      .title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      .name {
+        font-size: 24px;
+        margin: 20px 0;
+        text-transform: uppercase;
+      }
+      .date {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+      .signatures {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+      }
+
+      .signature {
+        width: 40%;
+        text-align: center;
+      }
+
+      .position {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .ttd {
+        max-height: 100px;
+        margin-bottom: 10px;
+      }
+
+      .signature-line {
+        border-top: 1px solid #000;
+        margin: 10px auto;
+        width: 80%;
+      }
+
+      .name {
+        margin-top: 5px;
+        font-style: italic;
+      }
+      @media (max-width: 600px) {
+        .position {
+          font-size: 14px; /* otomatis mengecil di layar mobile */
+        }
+        .name {
+          font-size: 12px; /* nama pemberi tanda tangan juga ikut menyesuaikan */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="certificate">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="images__4_-removebg-preview.png" alt="Logo Universitas" />
+      </div>
+
+      <!-- Judul -->
+      <div class="title">SERTIFIKAT KEASLIAN</div>
+
+      <!-- Nama -->
+      <div class="name">RIAN SAPUTERA</div>
+
+      <!-- Tanggal Berlaku -->
+      <div class="date">Berlaku hingga: 22 November 2027</div>
+
+      <!-- Tanda Tangan -->
+      <div class="signatures">
+        <!-- Tanda tangan Rektor -->
+        <div class="signature">
+          <p class="position">Yarsi Pratama University Rektor</p>
+          <img
+            src="Cuplikan layar 2025-11-22 130415.png"
+            alt="Tanda Tangan Rektor"
+            class="ttd"
+          />
+          <div class="signature-line"></div>
+          <p class="name">Dr. Ida Faridah, S.Kp., M.Kes</p>
+        </div>
+
+        <!-- Tanda tangan Ketua LPPM -->
+        <div class="signature">
+          <p class="position">
+            Kepala Lembaga Penelitian dan Pengabdian Masyarakat
+          </p>
+          <img
+            src="Cuplikan layar 2025-11-22 130444.png"
+            alt="Tanda Tangan Ketua LPPM"
+            class="ttd"
+          />
+          <div class="signature-line"></div>
+          <p class="name">Pengabdian Masyarakat (LPPM)</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
